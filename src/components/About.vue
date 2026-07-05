@@ -13,4 +13,6 @@
         I love understanding how things work by inside, and 
         i'm a Roman Catholic.
     </p>
+
+    <img src="../assets/catCode.jpg" alt="A cat with a qr code">
 </template>
