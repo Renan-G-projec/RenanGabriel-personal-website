@@ -32,7 +32,7 @@
         </div>
 
         <div class="pfp-container">
-            <img src="../assets/profileImage.jpg" alt="My pfp">
+            <img src="../assets/img/profileImage.jpg" alt="My pfp">
         </div>
 
     </div>

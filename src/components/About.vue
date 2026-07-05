@@ -14,5 +14,9 @@
         i'm a Roman Catholic.
     </p>
 
-    <img src="../assets/catCode.jpg" alt="A cat with a qr code">
+    <img src="../assets/img/catCode.jpg" alt="A cat with a qr code">
 </template>
+
+<style scoped>
+
+</style>
