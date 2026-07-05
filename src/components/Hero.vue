@@ -39,7 +39,6 @@
 </template>
 
 <style scoped>
-    @import url('https://fonts.googleapis.com/css2?family=Passero+One&display=swap');
 
     .hero {
         display: flex;
@@ -47,15 +46,6 @@
         flex-wrap: wrap;
     }
 
-    h1, h2 {
-        margin: 0;
-
-        font-family: "Passero One", sans-serif;
-        font-style: normal;
-    }
-    h1 {
-        font-size: 7rem;
-    }
 
     .pfp-container {
         overflow: hidden;
