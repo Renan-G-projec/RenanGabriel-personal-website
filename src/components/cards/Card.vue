@@ -14,7 +14,7 @@
         </div>
         <div class="content">
             <h3>{{  title }}</h3>
-            <slot></slot>
+            <p><slot></slot></p>
         </div>
     </div>
 </template>
@@ -28,17 +28,34 @@
         border-radius: 1rem;
     }
 
+    h3 {
+        text-align: left;
+    }
+
     .img-container {
         height: 30%;
         overflow: hidden;
+
+        cursor: pointer;
+    }
+
+    img {
+        transition: transform 0.3s ease-in-out;
+    }
+
+    img:hover {
+        transform: scale(1.1);
     }
 
     .content {
-        margin: 0.7rem;
+        margin: 0.9rem;
     }
 
     h3 {
         font-size: 1.4rem;
     }
 
+    p {
+        font-size: 1rem;
+    }
 </style>
