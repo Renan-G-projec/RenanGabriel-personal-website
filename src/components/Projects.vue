@@ -1,6 +1,8 @@
 <!-- Ad Maiorem Dei Gloriam! -->
 
 <script setup>
+    import Card from "./cards/Card.vue";
+
     const Projects = [
         {
             title: "RenanG_OS",
@@ -42,6 +44,11 @@
 
 <template>
     <div class="projects">
+        <h2>Projects</h2>
+        <p>Here are some of my projects. They're simple, but made with love.</p>
+    </div>
 
+    <div class="projects-container">
+        <Card title="aaa" img="azaa"></Card>
     </div>
 </template>
