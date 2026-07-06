@@ -22,7 +22,7 @@
 <style scoped>
     .card {
         width: clamp(20rem, 25vw, 50rem);
-        height: 40vh;
+        height: 30vh;
         overflow: hidden;
 
         border-radius: 1rem;
@@ -50,7 +50,10 @@
     }
 
     .content {
-        margin: 0.9rem;
+        padding: 0.9rem;
+        height: 100%;
+        color: black;
+        background-color: white;
     }
 
     h3 {

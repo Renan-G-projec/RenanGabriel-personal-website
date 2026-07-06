@@ -64,8 +64,13 @@
     .projects-container {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        gap: 8rem 0rem;
 
         margin-top: 4rem;
+    }
+
+    a:link, a:visited, a:active, a:hover {
+        color: rgb(128, 55, 206);
     }
 </style>
