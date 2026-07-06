@@ -3,7 +3,7 @@
 <script setup>
     import Card from "./cards/Card.vue";
 
-    const Projects = [
+    const projects = [
         {
             title: "RenanG_OS",
             description: "A small browser-based Operational System Simulation!",
@@ -49,6 +49,23 @@
     </div>
 
     <div class="projects-container">
-        <Card title="aaa" img="/src/assets/img/catCode.jpg">asddfasdfasdf</Card>
+        <div class="project" v-for="project in projects">
+            <Card :title="project.title" :img="project.img">
+                {{ project.description }} <br>
+                Link: <a :href="project.link">{{ project.link }}</a> <br>
+                Github: <a :href="project.github"> {{  project.github }}</a>
+            </Card>
+        </div>
     </div>
 </template>
+
+
+<style scoped>
+    .projects-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        margin-top: 4rem;
+    }
+</style>
