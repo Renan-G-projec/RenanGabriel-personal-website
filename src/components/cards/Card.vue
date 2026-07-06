@@ -9,7 +9,7 @@
 
 <template>
     <div class="card">
-        <div class="img-container">
+        <div class="img-container-card">
             <img :src="img" :alt="title">
         </div>
         <div class="content">
@@ -32,7 +32,7 @@
         text-align: left;
     }
 
-    .img-container {
+    .img-container-card {
         height: 30%;
         overflow: hidden;
 

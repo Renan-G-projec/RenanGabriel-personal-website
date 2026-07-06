@@ -34,21 +34,4 @@
     .content {
         width: clamp(20rem, 60vw, 100vw);
     }
-    
-    .img-container {
-        overflow: hidden;
-        border-radius: 1rem;
-        cursor: pointer;
-    }
-    
-    img {
-        height: 14rem;
-        scale: 1.1;
-        transition: transform 0.3s ease-in-out;
-    }
-
-    img:hover {
-        transform: scale(1.2);
-
-    }
 </style>
