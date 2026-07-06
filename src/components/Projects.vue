@@ -49,6 +49,6 @@
     </div>
 
     <div class="projects-container">
-        <Card title="aaa" img="azaa"></Card>
+        <Card title="aaa" img="/src/assets/img/catCode.jpg">asddfasdfasdf</Card>
     </div>
 </template>

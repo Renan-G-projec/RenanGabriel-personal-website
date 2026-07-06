@@ -18,3 +18,27 @@
         </div>
     </div>
 </template>
+
+<style scoped>
+    .card {
+        width: clamp(20rem, 25vw, 50rem);
+        height: 40vh;
+        overflow: hidden;
+
+        border-radius: 1rem;
+    }
+
+    .img-container {
+        height: 30%;
+        overflow: hidden;
+    }
+
+    .content {
+        margin: 0.7rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+</style>
