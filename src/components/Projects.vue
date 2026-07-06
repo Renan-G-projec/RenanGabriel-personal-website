@@ -61,6 +61,9 @@
 
 
 <style scoped>
+    .projects {
+        text-align: center;
+    }
     .projects-container {
         display: flex;
         flex-wrap: wrap;

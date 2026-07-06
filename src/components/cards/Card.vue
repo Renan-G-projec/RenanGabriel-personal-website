@@ -22,7 +22,7 @@
 <style scoped>
     .card {
         width: clamp(20rem, 25vw, 50rem);
-        height: 30vh;
+        height: 17rem;
         overflow: hidden;
 
         border-radius: 1rem;
