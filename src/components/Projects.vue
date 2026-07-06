@@ -3,41 +3,47 @@
 <script setup>
     import Card from "./cards/Card.vue";
 
+    import webos from "../assets/img/renang-os.png"; 
+    import asciibird from "../assets/img/asciibird.png"; 
+    import scopecutter from "../assets/img/scopecutter.png"; 
+    import weblinte from "../assets/img/weblinuxterminal.png"; 
+    import organizer from "../assets/img/organizer.png"; 
+
     const projects = [
         {
             title: "RenanG_OS",
             description: "A small browser-based Operational System Simulation!",
             link: "https://renang-os.netlify.app",
             github: "https://github.com/Renan-G-projec/RenanG_OS",
-            img: "/src/assets/img/renang-os.png"
+            img: webos
         }, 
         {
             title: "AsciiBird", 
             description: "A flappy bird game that runs entirely on the terminal!",
             link: "https://github.com/Renan-G-projec/AsciiBird/releases/tag/v1.0.0",
             github: "https://github.com/Renan-G-projec/AsciiBird",
-            img: "/src/assets/img/asciibird.png"
+            img: asciibird
         },
         {
             title: "ScopeCutter",
             description: "A tool, that helps developers prevent overengineering.",
             link: "https://scopecutter.netlify.app/",
             github: "https://github.com/Renan-G-projec/ScopeCutter",
-            img: "/src/assets/img/scopecutter.png"
+            img: scopecutter
         },
         {
             title: "WebLinuxTerminal",
             description: "A web-based unix-like terminal emulation to help new developers learn to work with it!",
             link: "https://github.com/Renan-G-projec/WebLinuxTerminal",
             github: "https://github.com/Renan-G-projec/WebLinuxTerminal",
-            img: "/src/assets/img/weblinuxterminal.png"
+            img: weblinte
         },
         {
             title: "Organizer",
             description: "CLI script that organizes files by their metadata in folders.",
             link: "https://github.com/Renan-G-projec/Organizer",
             github: "https://github.com/Renan-G-projec/Organizer",
-            img: "/src/assets/img/organizer.png"
+            img: organizer
         }
     ]
 </script>
